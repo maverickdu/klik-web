@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+</head>
+
+<boby>
+hahh2
+</body>
+
+
+<script type="text/javascript">
+       
+       
+ 		var src="http://klik.com:8080/klik/setCookie";
+        
+      
+        
+        var form = document.createElement("form");
+        form.action = src;
+        form.target = "cookieFrame";
+        document.body.appendChild(form);
+        
+        
+        
+         var node = document.createElement("iframe");
+        node.setAttribute("style", "display:none;");
+		 node.setAttribute("name", "cookieFrame");
+		document.body.appendChild(node);
+        
+        form.submit();
+    
+
+</script>
+</html>

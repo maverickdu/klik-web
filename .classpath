@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="lib" path="webapp/WEB-INF/lib/IKAnalyzer2012-m.jar"/>
+	<classpathentry kind="lib" path="/klik-dic-commodity/target/klik-dic-commidity-0.0.1.jar"/>
+	<classpathentry kind="lib" path="/klik-dic-base/target/klik-dic-base-0.0.1.jar" sourcepath="/klik-dic-base/src"/>
+	<classpathentry kind="lib" path="/klik-common/target/klik-common-0.5.jar"/>
+	<classpathentry kind="lib" path="/klik-core/target/klik-core-0.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
